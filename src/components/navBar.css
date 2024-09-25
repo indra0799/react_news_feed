@@ -1,0 +1,47 @@
+
+
+.navbar{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    
+}
+
+h1{
+    color: rgb(8, 8, 8); 
+    margin: 3px; 
+    font-size: 3vh; 
+    
+    
+  }
+  
+
+  @media (max-width: 1200px) {
+    .navbar_subBlock{
+        display: flex; 
+        justify-content: left; 
+        align-items: center; 
+        width: 100%;
+       
+      }
+}
+
+@media (min-width: 1200px) {
+    .navbar_subBlock{
+        display: flex; 
+        justify-content: left;
+        align-items: center; 
+        width: 80%;
+       
+      }
+}
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
